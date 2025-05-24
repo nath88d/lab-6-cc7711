@@ -1,7 +1,10 @@
 # Extração de Contornos com OpenCV
 
 ## Imagens Utilizadas
+![image](https://github.com/user-attachments/assets/9baf3609-5704-414a-aeeb-c7f26f562a62)
+![image](https://github.com/user-attachments/assets/dc42f129-ba48-4cd8-ba35-81e7ac27de40)
 
+![image](https://github.com/user-attachments/assets/d4f1ec1c-2d77-4ed0-bf27-202160fc5f81)
 
 ---
 
@@ -51,6 +54,7 @@ As imagens passam por um conjunto de etapas básicas para facilitar a detecção
 - `morfologia`: desativado
 - `canny`: `threshold1 = 0.5 * brilho`, `threshold2 = 0.5 * brilho`
 - `área mínima/máxima`: não definido
+![image](https://github.com/user-attachments/assets/7684e824-b0c4-4354-a497-5bd12695d6cb)
 
 ###  Avião
 - `limiar`: `0.35 * brilho máximo`
@@ -59,6 +63,7 @@ As imagens passam por um conjunto de etapas básicas para facilitar a detecção
 - `canny`: `threshold1 = 0.55 * brilho`, `threshold2 = 0.55 * brilho`
 - `área mínima`: 4000
 - `área máxima`: 120000
+![image](https://github.com/user-attachments/assets/f5577956-4ab1-4de8-9b2c-d0f55082faf0)
 
 ###  Satélite
 - `limiar`: `lambda brilho: (brilho * 35) * 0.4`
@@ -67,5 +72,6 @@ As imagens passam por um conjunto de etapas básicas para facilitar a detecção
 - `canny`: `threshold1 = 0.45 * brilho`, `threshold2 = 0.45 * brilho`
 - `área mínima`: 800
 - `área máxima`: 25000
+![image](https://github.com/user-attachments/assets/d63aa398-e188-4bd7-ac89-1b3ad1238735)
 
 ---
